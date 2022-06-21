@@ -19,3 +19,8 @@ button {
     font-size: 20px;
 }
 
+canvas {
+    border: 5px solid white;
+    box-shadow: 5px 5px 5px lightblue;
+    border-radius: 15px;
+}
