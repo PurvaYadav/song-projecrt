@@ -1,0 +1,21 @@
+.heading {
+    width: 100%;
+    font-size: 20px;
+}
+
+#note {
+    color: black;
+    font-size: 15px;
+}
+
+.background {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
+
