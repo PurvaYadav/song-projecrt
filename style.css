@@ -13,13 +13,14 @@
     background-size: cover;
 }
 
-button {
+.Play_button {
     height: 50px;
-    width: 100px;
+    width: 150px;
     font-size: 20px;
 }
 
 canvas {
+    margin-top: 50px;
     border: 5px solid white;
     box-shadow: 5px 5px 5px lightblue;
     border-radius: 15px;
