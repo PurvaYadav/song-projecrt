@@ -1,27 +1,44 @@
-.heading {
-    width: 100%;
-    font-size: 20px;
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
 }
 
-#note {
-    color: black;
-    font-size: 15px;
+#show_sketch
+{
+  float:right;
 }
 
-.background {
-    background-image: url("background.jpg");
+canvas 
+  {
+    border:5px solid white;
+    background-color: white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
+.background 
+{
     background-size: cover;
-}
-
-.Play_button {
-    height: 50px;
-    width: 150px;
-    font-size: 20px;
-}
-
-canvas {
-    margin-top: 50px;
-    border: 5px solid white;
-    box-shadow: 5px 5px 5px lightblue;
-    border-radius: 15px;
+    background: url("giphy.gif");
 }
